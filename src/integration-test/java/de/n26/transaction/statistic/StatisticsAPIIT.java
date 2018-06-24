@@ -2,15 +2,12 @@
  * @author diego
  *
  */
-package de.n26.transaction.statistic.api;
+package de.n26.transaction.statistic;
 
 import com.jayway.restassured.http.ContentType;
-import com.jayway.restassured.response.ExtractableResponse;
-import com.jayway.restassured.response.Response;
-import com.jayway.restassured.response.ResponseBodyExtractionOptions;
-import de.n26.transaction.statistic.api.model.TransactionStatisticModel;
-import de.n26.transaction.statistic.api.repository.TransactionRepository;
-import de.n26.transaction.statistic.api.util.TimestampUtils;
+import de.n26.transaction.statistic.model.TransactionStatisticModel;
+import de.n26.transaction.statistic.repository.TransactionRepository;
+import de.n26.transaction.statistic.util.TimestampUtils;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,8 +16,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-
-import java.util.Map;
 
 import static com.jayway.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;

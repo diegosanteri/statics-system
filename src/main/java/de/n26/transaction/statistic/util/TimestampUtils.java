@@ -1,4 +1,4 @@
-package de.n26.transaction.statistic.api.util;
+package de.n26.transaction.statistic.util;
 
 public class TimestampUtils {
 

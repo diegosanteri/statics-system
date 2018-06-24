@@ -1,4 +1,4 @@
-package de.n26.transaction.statistic.api.model;
+package de.n26.transaction.statistic.model;
 
 public class TransactionStatisticModel {
 

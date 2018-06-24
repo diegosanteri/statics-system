@@ -1,6 +1,6 @@
-package de.n26.transaction.statistic.api.repository;
+package de.n26.transaction.statistic.repository;
 
-import de.n26.transaction.statistic.api.model.TransactionStatisticModel;
+import de.n26.transaction.statistic.model.TransactionStatisticModel;
 import org.springframework.stereotype.Repository;
 
 import java.util.concurrent.atomic.AtomicReference;

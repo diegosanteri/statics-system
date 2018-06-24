@@ -1,4 +1,4 @@
-package de.n26.transaction.statistic.api;
+package de.n26.transaction.statistic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

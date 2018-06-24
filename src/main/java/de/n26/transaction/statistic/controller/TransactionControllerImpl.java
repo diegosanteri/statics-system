@@ -1,8 +1,8 @@
-package de.n26.transaction.statistic.api.controller;
+package de.n26.transaction.statistic.controller;
 
-import de.n26.transaction.statistic.api.model.CreateTransactionModel;
-import de.n26.transaction.statistic.api.model.TransactionStatisticModel;
-import de.n26.transaction.statistic.api.service.TransactionService;
+import de.n26.transaction.statistic.model.CreateTransactionModel;
+import de.n26.transaction.statistic.model.TransactionStatisticModel;
+import de.n26.transaction.statistic.service.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

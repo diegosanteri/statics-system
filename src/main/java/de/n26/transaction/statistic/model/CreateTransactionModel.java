@@ -1,4 +1,4 @@
-package de.n26.transaction.statistic.api.model;
+package de.n26.transaction.statistic.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

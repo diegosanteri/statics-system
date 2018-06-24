@@ -1,8 +1,8 @@
-package de.n26.transaction.statistic.api.service;
+package de.n26.transaction.statistic.service;
 
-import de.n26.transaction.statistic.api.model.CreateTransactionModel;
-import de.n26.transaction.statistic.api.model.TransactionStatisticModel;
-import de.n26.transaction.statistic.api.util.TimestampUtils;
+import de.n26.transaction.statistic.model.CreateTransactionModel;
+import de.n26.transaction.statistic.model.TransactionStatisticModel;
+import de.n26.transaction.statistic.util.TimestampUtils;
 
 public abstract class TransactionQueueService implements Runnable{
 

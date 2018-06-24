@@ -1,8 +1,8 @@
-package de.n26.transaction.statistic.api.service;
+package de.n26.transaction.statistic.service;
 
-import de.n26.transaction.statistic.api.model.CreateTransactionModel;
-import de.n26.transaction.statistic.api.model.TransactionStatisticModel;
-import de.n26.transaction.statistic.api.repository.TransactionRepository;
+import de.n26.transaction.statistic.model.CreateTransactionModel;
+import de.n26.transaction.statistic.model.TransactionStatisticModel;
+import de.n26.transaction.statistic.repository.TransactionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
